@@ -99,6 +99,6 @@ delay(4000);
 Здесь когда нибудь будут пояснения
 
 ##Блок-схема
-![Блок-схема](![Ivi7ckoL4_E](https://user-images.githubusercontent.com/106704479/193904410-5128c473-a973-4296-91e4-38c3df1f48a7.jpg)
+![Блок-схема](https://user-images.githubusercontent.com/106704479/193904410-5128c473-a973-4296-91e4-38c3df1f48a7.jpg)
 )
 
