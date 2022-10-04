@@ -49,7 +49,7 @@ delay(4000);
 ```
 
 ## Блок-схема
-![Блок-схема](https://user-images.githubusercontent.com/106704479/193904410-5128c473-a973-4296-91e4-38c3df1f48a7.jpg)
+![Диограм](https://user-images.githubusercontent.com/106704479/193923224-e884a214-7436-4b28-a09f-7624275c065e.jpg))
 
 //////3.1 
 ```C++
