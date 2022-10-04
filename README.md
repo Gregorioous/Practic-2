@@ -15,7 +15,7 @@
 ![1](https://user-images.githubusercontent.com/106704479/193897719-4c1dd533-2833-404c-ac8b-276448080759.jpg)
 
 //////3.1 
-'''C++
+```C++
 int led1 = 2; 
 int led2 = 3; 
 void setup()
@@ -37,7 +37,7 @@ delay(1000);
 ![2](https://user-images.githubusercontent.com/106704479/193897715-20efb36d-0d07-4f91-b536-fea0845b13d4.jpg)
 
 //////3.2 
-'''C++
+```C++
 int led1 = 2;
 int led2 = 3;
 void setup() 
@@ -58,7 +58,7 @@ delay(4000);
 ![3](https://user-images.githubusercontent.com/106704479/193897710-2f79733f-9d65-4a3a-96aa-1c1a571e4f14.jpg)
 
 //////4 
-'''C++
+```C++
 int led1 = 2;
 int led2 = 3;
 int led3 = 4;
