@@ -3,7 +3,6 @@
 ### Группа 8310
 
 
-## Ссылка на проект.
 [Ссылка на проект.](https://www.tinkercad.com/things/2h2PYAX99Xw-mighty-vihelmo/editel?sharecode=JL_i5blaRzfTj0_JZVbL4Gr7MOY9x_tiIVRUqERQISQ)
 
 ![1](https://user-images.githubusercontent.com/106704479/193897719-4c1dd533-2833-404c-ac8b-276448080759.jpg)
