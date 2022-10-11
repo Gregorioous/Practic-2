@@ -1,1 +1,101 @@
+# Отчет №5
+## Холод Егор 
+### Группа 8310
+
+
+[Ссылка на проект.](https://www.tinkercad.com/things/lQFXhApmgRb-neat-duup-albar/editel?sharecode=KEmOuWFmRSa9RF8dlvIPBPZ8co_H_y2M2J33ZksteYQ)
+
+![1]()
+![2]()
+
+
+//////1 
+```C++
+byte i;
+byte LedMin = 2;
+byte LedMax = 11;
+void setup()
+{
+  for (i=LedMin;i<=LedMax;i++)
+  {
+    pinMode(i,OUTPUT);
+  }
+}
+
+void loop()
+{
+ for (i=LedMin;i<=LedMax;i++)
+ {
+   digitalWrite(i,HIGH);
+   delay(30);
+ }
+  for (i=LedMax;i>=LedMin;i--)
+  {
+    digitalWrite(i,LOW);
+   delay(30);
+  }
+}
+```
+
+## Блок-схема
+![Диограм]()
+
+//////2 
+```C++
+byte i;
+byte LedMin = 2;
+byte LedMax = 11;
+void setup()
+{
+for (i=LedMin;i<=LedMax;i=i+2)
+{
+pinMode(i,OUTPUT);
+}
+}
+
+void loop()
+{
+for (i=LedMin;i<=LedMax;i=i+2)
+{
+digitalWrite(i,HIGH);
+delay(50);
+}
+for (i=LedMax;i>=LedMin;i--)
+{
+digitalWrite(i,LOW);
+delay(50);
+}
+} 
+```
+
+//////3 
+```C++
+byte i;
+byte LedMin = 1;
+byte LedMax = 11;
+void setup()
+{
+  for (i-LedMin;i<-LedMax;i++)
+  {
+    pinMode(i,OUTPUT);
+  }
+}
+
+void loop()
+{
+ for (i-LedMin;i<-LedMax;i++)
+ {
+   digitalWrite(i,HIGH);
+   delay(50);
+ }
+  for (i_LedMin;i<_LedMax;i++)
+  {
+    digitalWrite(i,LOW);
+   delay(50);
+  }
+}
+```
+
+## Пояснение
+
 
