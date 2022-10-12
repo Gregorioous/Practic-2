@@ -1,11 +1,12 @@
+
 # Отчет №5
 ## Холод Егор
 ### Группа 8310
 
 
-[Ссылка на проект.](https://www.tinkercad.com/things/lQFXhApmgRb-neat-duup-albar/editel?sharecode=KEmOuWFmRSa9RF8dlvIPBPZ8co_H_y2M2J33ZksteYQ)
+[Ссылка на проект.](https://www.tinkercad.com/things/2i03aAlebtP-fantabulous-fyyran-borwo/editel?sharecode=8a_zmcaWLKsZsKvost0YCYEPri4OQ52j2v2OXFAneQY)
 
-![1practic]()
+![Изображение](https://user-images.githubusercontent.com/106704479/195460431-6909cf73-c73f-4e9a-9b3a-16c57269bcd6.jpg)
 
 
 
