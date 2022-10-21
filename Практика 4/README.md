@@ -1,101 +1,80 @@
-
-# Отчет №3
+# Отчет №4
 ## Холод Егор
 ### Группа 8310
 
 
-[Ссылка на проект.](https://www.tinkercad.com/things/lQFXhApmgRb-neat-duup-albar/editel?sharecode=KEmOuWFmRSa9RF8dlvIPBPZ8co_H_y2M2J33ZksteYQ)
+[Ссылка на проект.](https://www.tinkercad.com/things/2i03aAlebtP-fantabulous-fyyran-borwo/editel?sharecode=8a_zmcaWLKsZsKvost0YCYEPri4OQ52j2v2OXFAneQY)
 
-![1practic](https://user-images.githubusercontent.com/106704479/195206070-5ec7d0fe-2cd0-4ea4-bda7-e6b46f97fade.jpg)
-![2practic](https://user-images.githubusercontent.com/106704479/195206064-ce495b57-23ee-4264-9df5-e69bdd5a3b57.jpg)
+![Изображение](https://user-images.githubusercontent.com/106704479/195460431-6909cf73-c73f-4e9a-9b3a-16c57269bcd6.jpg)
+
 
 
 //////1
 ```С++
-byte i;
-byte LedMin = 1;
-byte LedMax = 11;
+int buttonState = 0;
+
+int lastButtonState = 0;
+
+int buttonPushCounter = 0;
+
+int  PIN_BUTTON = 2;
+
+int buttonStote = digitalRead(PIN_BUTTON);
+
+int counter;
+
 void setup()
 {
-  for (i-LedMin;i<-LedMax;i++)
-  {
-    pinMode(i,OUTPUT);
-  }
+  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(2, INPUT);
+  pinMode(10, OUTPUT);
 }
 
 void loop()
 {
- for (i-LedMin;i<-LedMax;i++)
- {
-   digitalWrite(i,HIGH);
-   delay(50);
- }
-  for (i_LedMin;i<_LedMax;i++)
-  {
-    digitalWrite(i,LOW);
-   delay(50);
+  digitalWrite(5, LOW);
+  digitalWrite(6, LOW);
+  digitalWrite(7, HIGH);
+  digitalWrite(9, HIGH);
+  Serial.println(buttonStote);
+    delay(50);
+  buttonState = digitalRead(2);
+  if (buttonState == HIGH) {
+    delay(600); 
+    digitalWrite(7, LOW);
+    digitalWrite(6, HIGH);
+    digitalWrite(5, LOW);
+    delay(3000); 
+    digitalWrite(7, LOW);
+    digitalWrite(6, LOW);
+    digitalWrite(5, HIGH);
+    delay(1000); 
+    digitalWrite(9, LOW);
+    digitalWrite(10, HIGH);
+    delay(10000); 
+    digitalWrite(10, LOW);
+    for (counter = 0; counter < 10; ++counter) {
+      digitalWrite(9, HIGH);
+      delay(500); 
+      digitalWrite(9, LOW);
+      delay(500); 
+    }
+    digitalWrite(9, LOW);
+ 
+    
   }
-}
+  
+  }
+
 ```
 
 ## Блок-схема
-![Диограмма](https://user-images.githubusercontent.com/106704479/195682039-44b128f0-4b10-4f0c-804e-b9d823a5bb76.jpg)
+![Диограмма](https://user-images.githubusercontent.com/106704479/196049649-f369c786-0073-408b-a7b7-650e697d3552.png)
 
-//////2
-```С++
-byte i;
-byte LedMin = 2;
-byte LedMax = 11;
-void setup()
-{
-for (i=LedMin;i<=LedMax;i=i+2)
-{
-pinMode(i,OUTPUT);
-}
-}
 
-void loop()
-{
-for (i=LedMin;i<=LedMax;i=i+2)
-{
-digitalWrite(i,HIGH);
-delay(50);
-}
-for (i=LedMax;i>=LedMin;i--)
-{
-digitalWrite(i,LOW);
-delay(50);
-}
-}
-```
-
-//////3
-```С++
-byte i;
-byte LedMin = 1;
-byte LedMax = 11;
-void setup()
-{
-for (i-LedMin;i<-LedMax;i++)
-{
-pinMode(i,OUTPUT);
-}
-}
-
-void loop()
-{
-for (i=LedMin;i<-LedMax;i++)
-{
-digitalWrite(i,HIGH);
-delay(50);
-}
-for (i-LedMax;i<-LedMin;i++)
-{
-digitalWrite(i,LOW);
-delay(50);
-}
-}
-```
 
 ## Пояснение
 
