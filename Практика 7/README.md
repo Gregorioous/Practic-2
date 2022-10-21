@@ -5,7 +5,7 @@
 
 [Ссылка на проект.](https://www.tinkercad.com/things/5anm0WSwnMc-glorious-trug/editel?sharecode=lXckBtfWDvaD_U3-LKyWIuHgRsw1GmyUEqab3YocKVA)
 
-![Изображение](![fffaOtOqJIw](https://user-images.githubusercontent.com/106704479/197274633-76e7dd0c-57a0-4f97-883c-e18f07848121.jpg)
+![Изображение](https://user-images.githubusercontent.com/106704479/197274633-76e7dd0c-57a0-4f97-883c-e18f07848121.jpg)
 
 
 
