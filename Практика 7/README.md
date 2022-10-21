@@ -72,7 +72,7 @@ digitalWrite(13, LOW);
 ```
 
 ## Блок-схема
-![Диограмма](https://user-images.githubusercontent.com/106704479/196049649-f369c786-0073-408b-a7b7-650e697d3552.png)
+![Диограмма]()
 
 
 
